@@ -1,0 +1,26 @@
+*{
+  margin-left: 5px;
+  padding: 5px
+}
+
+body {
+  background-image: url(https://previews.123rf.com/images/nataslavetskaya/nataslavetskaya1505/nataslavetskaya150500755/40447775-seamless-vector-vintage-pattern-with-bouquet-of-blue-flowers-on-a-white-background-peonies-roses-swe.jpg);
+}
+
+h1{
+  font-style: italic;
+  font-family: sans-serif, monospace;
+  font-size: 3em
+}
+img{
+  width: 20%;
+  border-style: solid;
+
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
