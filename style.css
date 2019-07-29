@@ -1,5 +1,5 @@
 *{
-  margin-left: 5px;
+  margin: 5px;
   padding: 5px
 }
 
@@ -23,4 +23,31 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+}
+p {
+  background-color: #008AC8;
+  border: solid;
+  margin: 10px;
+  font-family: sans-serif;
+}
+
+#paragraph {
+  border: 0px hidden;
+}
+
+#extra {
+  border: 2.5px solid black;
+}
+
+.aboutme{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: italic;
+  border: solid black;
+  background-color: #008AC8;
+  border-radius: 5px
 }
